@@ -1,17 +1,18 @@
-###共五个模块：
-regfile
+### 共五个模块：
+register file
 ALU
-calpart
+calculate part
 memory---加入program.coe
-CPU
+control unit (CPU)
 
-###teatbench文件：
+### testbench文件：
 tb_CPU
 
-###3个例程：
+### 3个例程：
 simulate.txt
 
-给定一个数N，计算小于N的所有自然数的和
+1.给定一个数N，计算小于N的所有自然数的和
+---
 
 0000100011 //0// READ INPUT TO R3
 
@@ -31,7 +32,8 @@ simulate.txt
 
 0000000000 //8// OVER
 
-给定一个数N，计算N除以11的余数
+2.给定一个数N，计算N除以11的余数
+---
 
 0000100011 //0// read R3
 
@@ -51,7 +53,8 @@ simulate.txt
 
 0000000000 //8// OVER
 
-给定一个自然数N，计算最大约数
+3.给定一个自然数N，计算最大约数
+---
 
 0000100011 //0// READ INPUT TO R3
 
